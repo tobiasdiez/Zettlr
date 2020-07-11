@@ -6,7 +6,7 @@
             "Celso Lira"
         ],
         "license": "GNU GPL v3",
-        "updated_at": "2020-05-09T08:28:38.000000Z"
+        "updated_at": "2020-07-09T14:43:58.000000Z"
     },
     "dialog": {
         "about": {
@@ -190,7 +190,8 @@
                 "render_links": "Render Links",
                 "render_math": "Render Formulae",
                 "render_tasks": "Render Tasks",
-                "title": "Display"
+                "title": "Display",
+                "use_first_headings": "If present, use the first heading level 1 instead of the filename"
             },
             "display_time_explanation": "In the file metadata display",
             "editor": "Editor",
@@ -220,6 +221,7 @@
             "hide_dirs": "Hide directories during global search",
             "homeEndBehaviour": "Use the CodeMirror default actions for \u003Ckbd\u003EHome\u003C/kbd\u003E and \u003Ckbd\u003EEnd\u003C/kbd\u003E.",
             "indent_unit": "Indent by the following number of spaces",
+            "input_mode": "Editor input mode",
             "modtime": "Last modification time",
             "mute_lines": "Mute non-focused lines in distraction-free mode",
             "new_file_dont_prompt": "Do not prompt for filename when creating new files",
@@ -304,9 +306,13 @@
                 "updated": "Updated translations: %s"
             },
             "user_dictionary": "User dictionary. Remove words by clicking them.",
+            "watchdog_checkbox_label": "Activate Watchdog polling",
+            "watchdog_explainer": "On some computers, Zettlr may report too many remote file changes. If this happens, try activating this setting.",
+            "watchdog_threshold_label": "Time to wait before writing a file is considered done (in ms)",
             "xelatex": "Path to xelatex executable. Please only change, if Zettlr is unable to locate it.",
             "xelatex_default": "Default: xelatex",
             "zkn": {
+                "auto_create_file": "Automatically create non-existing files when following internal links",
                 "generated_id": "Generated ID",
                 "id_generator_label": "Pattern used to generate new IDs",
                 "id_label": "ID regular expression",
@@ -488,6 +494,7 @@
         "open": "Open\u2026",
         "open_attachment": "Open Attachment",
         "open_link": "Open Link",
+        "open_logs": "Open Logs",
         "pandoc": "Get Pandoc",
         "paste": "Paste",
         "paste_plain": "Paste without style",
@@ -509,11 +516,15 @@
         "save": "Save",
         "select_all": "Select all",
         "services": "Services",
+        "set_icon": "Set icon \u2026",
         "set_target": "Set writing target\u2026",
         "show_file": "Show file",
         "speech": "Speech",
         "start_speaking": "Start speaking",
         "stop_speaking": "Stop speaking",
+        "tab_close": "Close Tab",
+        "tab_next": "Next Tab",
+        "tab_previous": "Previous Tab",
         "tags": "Manage Tags\u2026",
         "toggle_attachments": "View attachments",
         "toggle_devtools": "Toggle developer tools",
@@ -602,6 +613,7 @@
         "open_root_directory_success": "%s has been loaded.",
         "overwrite_file_message": "The file %s already exists in this directory. Overwrite?",
         "overwrite_file_title": "Overwrite existing file",
+        "please_select_directory": "Please select a directory first",
         "replace_file_message": "File %s has been modified remotely. Replace the loaded version with the newer one from disk?",
         "replace_file_title": "Replace file",
         "save_changes_cancel": "Cancel",

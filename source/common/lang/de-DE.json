@@ -4,7 +4,7 @@
             "Hendrik Erz \u003Chendrik@zettlr.com\u003E"
         ],
         "license": "GNU GPL v3",
-        "updated_at": "2020-05-07T19:14:13.000000Z"
+        "updated_at": "2020-07-09T14:44:43.000000Z"
     },
     "dialog": {
         "about": {
@@ -188,7 +188,8 @@
                 "render_links": "Links darstellen",
                 "render_math": "Formeln darstellen",
                 "render_tasks": "Tasks darstellen",
-                "title": "Anzeige"
+                "title": "Anzeige",
+                "use_first_headings": "Falls vorhanden, zeige die erste \u00dcberschrift Ebene 1 statt des Dateinamens"
             },
             "display_time_explanation": "Zeige folgende Zeit in den Dateiinformationen an",
             "editor": "Editor",
@@ -218,6 +219,7 @@
             "hide_dirs": "Verstecke Verzeichnisse w\u00e4hrend globaler Suchen",
             "homeEndBehaviour": "Nutze die CodeMirror-Standardaktionen f\u00fcr \u003Ckbd\u003EHome\u003C/kbd\u003E und \u003Ckbd\u003EEnd\u003C/kbd\u003E.",
             "indent_unit": "R\u00fccke um folgende Anzahl Leerzeichen ein",
+            "input_mode": "Eingabemodus des Editors",
             "modtime": "Letzter Bearbeitungszeitpunkt",
             "mute_lines": "Blende nicht fokussierte Zeilen im ablenkungsfreien Modus ab",
             "new_file_dont_prompt": "Dateinamen bei Dateierstellung nicht abfragen",
@@ -302,9 +304,13 @@
                 "updated": "\u00dcbersetzungen aktualisiert: %s"
             },
             "user_dictionary": "Benutzerdefiniertes W\u00f6rterbuch. Entferne W\u00f6rter mittels Klick.",
+            "watchdog_checkbox_label": "Aktiviere Watchdog-Polling",
+            "watchdog_explainer": "Auf einigen Computern kann es passieren, dass Zettlr zu oft warnt, eine Datei sei au\u00dferhalb der App bearbeitet worden. Falls dies passiert, versuche, diese Einstellung zu aktivieren.",
+            "watchdog_threshold_label": "Wartezeit, bis das Schreiben einer Datei als beendet erachtet wird (in Millisekunden)",
             "xelatex": "Pfad zum XeLaTeX-Programm. Bitte \u00e4ndere dies nur, wenn Pandoc einen Fehler ausgibt, dass er die Bibliothek nicht finden kann.",
             "xelatex_default": "Standard: xelatex",
             "zkn": {
+                "auto_create_file": "Erstelle nicht existierende Dateien automatisch beim Klick auf interne Links",
                 "generated_id": "Erstellte ID",
                 "id_generator_label": "Muster f\u00fcr neue IDs",
                 "id_label": "ID Regul\u00e4rer Ausdruck (RegEx)",
@@ -486,6 +492,7 @@
         "open": "\u00d6ffnen\u2026",
         "open_attachment": "Dateianhang \u00f6ffnen",
         "open_link": "Link \u00f6ffnen",
+        "open_logs": "Logs \u00f6ffnen",
         "pandoc": "Pandoc installieren",
         "paste": "Einf\u00fcgen",
         "paste_plain": "Ohne Format einf\u00fcgen",
@@ -507,11 +514,15 @@
         "save": "Speichern",
         "select_all": "Alles ausw\u00e4hlen",
         "services": "Dienste",
+        "set_icon": "Icon ausw\u00e4hlen \u2026",
         "set_target": "Schreibziel setzen\u2026",
         "show_file": "Datei anzeigen",
         "speech": "Sprache",
         "start_speaking": "Sprechen beginnen",
         "stop_speaking": "Sprechen anhalten",
+        "tab_close": "Tab schlie\u00dfen",
+        "tab_next": "N\u00e4chster Tab",
+        "tab_previous": "Voriger Tab",
         "tags": "Schlagw\u00f6rter\u2026",
         "toggle_attachments": "Anh\u00e4nge anzeigen",
         "toggle_devtools": "Entwicklerwerkzeuge",
@@ -600,6 +611,7 @@
         "open_root_directory_success": "Verzeichnis %s wurde geladen.",
         "overwrite_file_message": "Die Date %s existiert bereits in diesem Verzeichnis. \u00dcberschreiben?",
         "overwrite_file_title": "Datei \u00fcberschreiben",
+        "please_select_directory": "Bitte w\u00e4hle zuerst ein Verzeichnis aus",
         "replace_file_message": "Datei %s wurde au\u00dferhalb von Zettlr ver\u00e4ndert. Soll die geladene Datei mit der neueren Version ersetzt werden?",
         "replace_file_title": "Datei ersetzen",
         "save_changes_cancel": "Abbrechen",
